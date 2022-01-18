@@ -1,0 +1,53 @@
+2. Explain the following questions in your own words
+
+ques 1. -- What is the difference between forEach, map, filter and reduce ? Explain these using your own words
+answer -- 
+
+> forEach -- 
+
+ques 2. -- Explain the difference between function declaration and arrow function ?
+answer -- 
+
+> function declaration -- 
+ - A function declaration also known as a function statement declares a function with a function keyword. 
+    The function declaration must have a function name.
+ - Function declaration does not require a variable assignment as they are standalone constructs and they 
+    cannot be nested inside a functional block.
+ - These are executed before any other code.
+ - The function in function declaration can be accessed before and after the function definition.
+
+> arrow function -- 
+
+
+
+ques 3. -- Explain the difference between find and findIndex ?
+answer --  
+
+> find() --  the method find() is used to return the first array element that passes a certain test function.
+The find method takes a function as its parameter and the function itself takes three arguments: 
+the element, the index, and the array itself.
+
+> findIndex() -- The method findIndex is used to return the index of the first array element that 
+passes a certain test function.
+The method findIndex also takes a callback function which can take three parameters(element, index, and array).
+
+Inshort, the find() method returns the value of the element whereas the findIndex() method returns the index of 
+the element.
+
+
+ques 4. -- If you like to filter out one object element in an array which method do you like to use: filter or find ? 
+Explain
+
+answer -- I would like to use find() method as it returns the values of the child elements only. While filter() method
+filters of all the elements values.   
+
+ques 5. -- Explain the difference of var, let and const when we declare a variable ?
+answer -- 
+
+var - The scope of the var keyword is the global or function scope. It means variables defined outside the function 
+    can be accessed globally, and variables defined inside a particular function can be accessed within the function. 
+
+let - The scope of a let variable is only block scoped. It can’t be accessible outside the particular block ({block}).
+
+const -  The scope of a const variable is only block scoped. The const keyword has all the properties that are the same as the let keyword, except the user cannot update it.
+
