@@ -4,6 +4,17 @@ ques 1. -- What is the difference between forEach, map, filter and reduce ? Expl
 answer -- 
 
 > forEach -- 
+ - The forEach method is used when we want to do some action with each element of the array.
+
+> map -- 
+ - The map method is used for creating a new array by applying the callback function on each element of an 
+   array and thus, it's chainable.
+
+> filter --
+ - The filter method creates a new array by removing elements that dont belong 
+
+> reduce --
+ - The reduce method takes all of the elements in an array and reduces them into a single value.
 
 ques 2. -- Explain the difference between function declaration and arrow function ?
 answer -- 
@@ -17,6 +28,11 @@ answer --
  - The function in function declaration can be accessed before and after the function definition.
 
 > arrow function -- 
+ - Does not have its own bindings to this or super, and should not be used as methods.
+ - Does not have new.target keyword.
+ - Not suitable for call, apply and bind methods, which generally rely on establishing a scope.
+ - Can not be used as constructors.
+ - Can not use yield, within its body. 
 
 
 
@@ -44,8 +60,8 @@ filters of all the elements values.
 ques 5. -- Explain the difference of var, let and const when we declare a variable ?
 answer -- 
 
-var - The scope of the var keyword is the global or function scope. It means variables defined outside the function 
-    can be accessed globally, and variables defined inside a particular function can be accessed within the function. 
+var - The scope of the var keyword is the global or function scope. It means variables defined 
+outside the function can be accessed globally, and variables defined inside a particular function can be accessed within the function. 
 
 let - The scope of a let variable is only block scoped. It can’t be accessible outside the particular block ({block}).
 
